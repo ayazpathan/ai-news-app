@@ -5,7 +5,12 @@ import NewsCard from "../NewsCard/NewsCard";
 import useStyle from "./NewsCardsStyles";
 
 const infoCards = [
-  { color: "#00838f", title: "Latest News", text: "Give me the latest news" },
+  {
+    color: "#00838f",
+    title: "Latest News",
+    info: "Try saying 'go back' to return to home page",
+    text: "Give me the latest news",
+  },
   {
     color: "#1565c0",
     title: "News by Categories",
